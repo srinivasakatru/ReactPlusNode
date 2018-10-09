@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const keys = require('./config/keys')
-const passport = require('passport');
+var passport = require('passport');
 
 const cookieSession = require('cookie-session');
 app.use(
